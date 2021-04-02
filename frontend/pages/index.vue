@@ -224,4 +224,10 @@ button:active {
 .blue {
   background: rgb(87, 87, 211);
 }
+
+@media screen and (max-width: 992px) {
+  .error-handler {
+    flex-direction: column;
+  }
+}
 </style>
